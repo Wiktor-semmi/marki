@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+body {
+    width: 100%;
+height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.container {
+    max-width: 1280px;
+       background: #F5F7FA;
+
+
+}
+
+.main {
+    display: flex;
+    padding: 40px;
+
+}
+
+.info {
+    background: #1E2939;
+    margin: 0;
+      padding-bottom: 40px;
+    padding-top: 40px;
+width: 30%;
+}
+
+.info-ing {
+      width: 100%;
+}
+
+.info-ing img {
+      width: 100%;
+}
+
+.info-info {
+    margin-left: 25px;
+    width: 81%;
+}
+
+.contacts {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 51px;
+    padding-bottom: 8px;
+    margin: 0;
+    width: 50%;
+}
+
+.info-info a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    opacity: 0.5;
+    width: 50%;
+}
+
+.info-info span {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding-right: 10px;
+    width: 50%;
+}
+
+.contacts-tech h2 {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 47px;
+    padding-bottom: 8px;
+    margin: 0;
+    width: 55%;
+}
+
+.contacts-tech li {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    list-style-position: inside;
+    padding-left: 0;
+width: 100%;
+}
+
+.contacts-tech li::marker {
+    color: #FB6D3A;
+}
+
+.text {
+    background: #FFF;
+    padding: 102px 0 107px 50px;
+    margin: 0;
+    width: 70%;
+}
+
+.text-p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 19px;
+    margin: 0;
+    width: 35%;
+}
+
+.text-title {
+    color: #000;
+    font-size: 31px;
+    font-style: normal;
+    line-height: normal;
+    /*width: 491px;*/
+    height: 50px;
+    flex-shrink: 0;
+    margin: 0;
+    padding-bottom: 24px;
+    width: 97%;
+}
+
+.text-info {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    /*width: 400px;*/
+    margin: 0;
+    width: 75%;
+}
+
+.text-projects h2 {
+    color: #000;
+    font-size: 22px;
+    padding-top: 40px;
+    padding-bottom: 8px;
+    margin: 0;
+    width: 20%;
+}
+
+.text-projects {
+    margin: 0;
+    width: 100%;
+}
+.text-projects ol{
+    margin: 0;
+    width: 70%;
+}
+.text-projects ol li {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0;
+    width: 104%;
+}
+
+.text-projects ol li::marker {
+    font-weight: bold;
+}
+
+.text-projects ol li span {
+    font-weight: bold;
+}
+
+.text-work {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    padding: 51px 0 12px 0;
+    margin: 0;
+    width: 30%;
+}
+.text img {
+    border: .1px solid #1E2939;
+
+}
+.text-work-freelance {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    margin: 0;
+    width: 75%;
+}
+.text-work-freelance .full-time{
+color: #FB6D3A;
+}
+.education{
+    color: #000;
+    font-size: 22px;
+    padding-top: 43px;
+    margin: 0;
+    width: 20%;
+}
+
+.education-courses{
+    margin: 0;
+    width: 80%;
+}
+.education-work{
+    margin: 0;
+    width: 80%;
+}
+.education-education{
+    margin: 0;
+    width: 99%;
+}
+.education-education h3{
+    color: #FB6D3A;
+    font-size: 16px;
+padding: 12px 0 12px 0;
+    margin: 0;
+    width: 87%;
+}
+.education-education h4{
+    color: #000;
+    font-size: 14px;
+    padding-bottom: 12px;
+    margin: 0;
+    width: 35%;
+}
+.education-education p{
+    color: #A8A8A8;
+    font-size: 12px;
+    margin: 0;
+    width: 75%;
+}
+.education-education p span{
+    color: #000;
+    font-size: 12px;
+   }
+.education-work h3{
+    color: black;
+    width: 45%;
+}
+.education-work li{
+    list-style-position: inside;
+    padding-left: 0;
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    width: 112%;
+}
+.language{
+    float: right;
+    padding-right: 30px;
+}
+.translate{
+    margin: 0;
+    background: transparent;
+    border: none;
+}
+button{
+    cursor: pointer;
+}
