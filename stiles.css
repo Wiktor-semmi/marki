@@ -155,6 +155,13 @@ html, body {
     margin: 0;
     width: 75%;
 }
+.viktor-a {
+   
+    margin: 10px 0 10px 0;
+}
+.text-front {
+    padding-top: 10px;
+}
 
 .text-projects h2 {
     color: #000;
