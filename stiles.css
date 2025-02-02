@@ -1,61 +1,55 @@
 * {
-    padding: 0;
-    margin: 0 auto;
-}
- body {
-   max-width: 1920px;
-    width: 100%;
     margin: 0;
-    height: 100%;
-    font: 13px/18px 'Montserrat', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html, body {
+    width: 100%;
+    font: 13px/18px 'Montserrat', sans-serif;
 }
 
 
 .container {
-    /*width: 100%;*/
     background: #F5F7FA;
-    padding: 1.5625%;
-    /* 15px/960px*100 = 1.5625% */
-
-    max-width:960px; width:100%;
-
 }
+
 .container h1 {
-    font-size:1.111111111111111em;
+    font-size: 1.111111111111111em;
     /* 18px/13px = 1.384615384615385em */
 
-    line-height:1.111111111111111em;
+    line-height: 1.111111111111111em;
     /* 20px/18px = 1.111111111111111em */
 }
+
 .container h2 {
-    font-size:0.45em;
+    font-size: 0.45em;
     /* 18px/13px = 1.384615384615385em */
 
-    line-height:0.37em;
+    line-height: 0.37em;
     /* 20px/18px = 1.111111111111111em */
 }
 
 .main {
     display: flex;
     padding: 40px;
-
+    min-height: 100vh;
 }
 
 .info {
     background: #1E2939;
     margin: 0;
-      padding-bottom: 40px;
+    padding-bottom: 40px;
     padding-top: 40px;
-width: 30%;
+    width: 30%;
 }
 
 .info-ing {
-      width: 100%;
+    width: 100%;
 }
 
 .info-ing img {
-      width: 100%;
+    width: 100%;
 }
 
 .info-info {
@@ -114,7 +108,7 @@ width: 30%;
     line-height: 24px; /* 171.429% */
     list-style-position: inside;
     padding-left: 0;
-width: 100%;
+    width: 100%;
 }
 
 .contacts-tech li::marker {
@@ -158,7 +152,6 @@ width: 100%;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
-    /*width: 400px;*/
     margin: 0;
     width: 75%;
 }
@@ -175,11 +168,14 @@ width: 100%;
 .text-projects {
     margin: 0;
     width: 100%;
+
 }
-.text-projects ol{
+
+.text-projects ol {
     margin: 0;
     width: 70%;
 }
+
 .text-projects ol li {
     color: #595959;
     font-size: 14px;
@@ -208,10 +204,12 @@ width: 100%;
     margin: 0;
     width: 30%;
 }
+
 .text img {
     border: .1px solid #1E2939;
 
 }
+
 .text-work-freelance {
     color: #000;
     font-size: 16px;
@@ -219,10 +217,12 @@ width: 100%;
     margin: 0;
     width: 75%;
 }
-.text-work-freelance .full-time{
-color: #FB6D3A;
+
+.text-work-freelance .full-time {
+    color: #FB6D3A;
 }
-.education{
+
+.education {
     color: #000;
     font-size: 22px;
     padding-top: 43px;
@@ -230,47 +230,55 @@ color: #FB6D3A;
     width: 20%;
 }
 
-.education-courses{
+.education-courses {
     margin: 0;
     width: 80%;
 }
-.education-work{
+
+.education-work {
     margin: 0;
     width: 80%;
 }
-.education-education{
+
+.education-education {
     margin: 0;
     width: 99%;
 }
-.education-education h3{
+
+.education-education h3 {
     color: #FB6D3A;
     font-size: 16px;
-padding: 12px 0 12px 0;
+    padding: 12px 0 12px 0;
     margin: 0;
     width: 87%;
 }
-.education-education h4{
+
+.education-education h4 {
     color: #000;
     font-size: 14px;
     padding-bottom: 12px;
     margin: 0;
     width: 35%;
 }
-.education-education p{
+
+.education-education p {
     color: #A8A8A8;
     font-size: 12px;
     margin: 0;
     width: 75%;
 }
-.education-education p span{
+
+.education-education p span {
     color: #000;
     font-size: 12px;
-   }
-.education-work h3{
+}
+
+.education-work h3 {
     color: black;
     width: 45%;
 }
-.education-work li{
+
+.education-work li {
     list-style-position: inside;
     padding-left: 0;
     color: #000;
@@ -278,15 +286,19 @@ padding: 12px 0 12px 0;
     margin: 0;
     width: 112%;
 }
-.language{
+
+.language {
     float: right;
     padding-right: 30px;
 }
-.translate{
+
+.translate {
     margin: 0;
     background: transparent;
     border: none;
 }
-button{
+
+button {
     cursor: pointer;
 }
+
