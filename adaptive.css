@@ -74,9 +74,7 @@
     .text span {
         font-size: 10px;
     }
-.macaroons {
-    opacity: 0;
-}
+
 .language li {
     width: 15px;
     height: 10px;
@@ -156,7 +154,9 @@ width: 25px;
         font-size: 7px;
         padding-right: 5px;
     }
-
+.macaroons {
+    opacity: 0;
+}
 }
 
 
