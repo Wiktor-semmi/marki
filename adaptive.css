@@ -154,9 +154,7 @@ width: 25px;
         font-size: 7px;
         padding-right: 5px;
     }
-.macaroons {
-    opacity: 0;
-}
+
 }
 
 
@@ -202,4 +200,7 @@ width: 25px;
         font-size: 6px;
         padding-right: 1px;
     }
+    .macaroons {
+    opacity: 0;
+}
 }
